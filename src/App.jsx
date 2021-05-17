@@ -3,7 +3,7 @@ import { Route, Switch, useHistory } from "react-router";
 import "./App.css";
 import Login from "./components/Login";
 import Main from "./components/Main";
-import { getGoogleCode, getGoogleInfo } from "./api/auth";
+import { getGoogleInfo } from "./api/auth";
 
 function App() {
   const [user, setUser] = useState({
